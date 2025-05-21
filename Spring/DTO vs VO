@@ -3,7 +3,7 @@
 ## DTO (Data Transfer Object)
 
 ### 특징
-- - **순수 데이터 전송을 위한 객체** (getter, setter 중심 = POJO)
+- **순수 데이터 전송을 위한 객체** (getter, setter 중심 = POJO)
 - 필드 값 변경이 가능 (mutable)
 - 주로 Service 계층과 Controller 간의 데이터 전송에 사용됨
 - DTO는 주로 API 요청 및 응답에 사용되며, DB와 직접적인 상호작용은 하지 않음
