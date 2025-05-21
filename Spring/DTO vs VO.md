@@ -77,6 +77,7 @@ public class UserVO {
     }
 }
 ```
+<br>
 
 ## 요약
 - DTO는 데이터 전송을 위한 객체로, mutable하며 비즈니스 로직을 포함하지 않음
