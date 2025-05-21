@@ -1,6 +1,6 @@
 # DTO vs VO
 
-## DTO (Data Transfer Object)
+## 1. DTO (Data Transfer Object)
 
 ### 특징
 - **순수 데이터 전송을 위한 객체** (getter, setter 중심 = POJO)
@@ -33,8 +33,9 @@ public class UserDTO {
     }
 }
 ```
+<br>
 
-## VO (Value Object)
+## 2. VO (Value Object)
 
 ### 특징
 - **불변 객체** (immutable)
