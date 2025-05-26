@@ -76,22 +76,27 @@ public User createUser(@RequestBody User user) {
 
 
 ## 6. 요약
-- `@RequestMapping` : HTTP 요청을 처리하는 메서드에 매핑
-- `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`: 각 HTTP 메서드에 해당하는 요청을 처리
+- `@RequestMapping`
+  - HTTP 요청을 처리하는 메서드에 매핑
+- `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`
+  - 각 HTTP 메서드에 해당하는 요청을 처리
 
 
-- `@RequestParam`: HTTP 요청 파라미터를 메서드 파라미터에 매핑
-- 주로 필터링, 검색 등의 기능을 구현할 때 사용
+- `@RequestParam`
+  - HTTP 요청 파라미터를 메서드 파라미터에 매핑
+  - 주로 필터링, 검색 등의 기능을 구현할 때 사용
 
 
-- `@PathVariable`: URL 경로 변수 값을 메서드 파라미터에 매핑
-- 주로 RESTful API에서 자원 식별자(예: ID)를 추출할 때 사용
-- 여러 경로 변수를 사용할 수 있으며, 경로 변수의 이름은 URL 경로와 일치해야 함
+- `@PathVariable`
+  - URL 경로 변수 값을 메서드 파라미터에 매핑
+  - 주로 RESTful API에서 자원 식별자(예: ID)를 추출할 때 사용
+  - 여러 경로 변수를 사용할 수 있으며, 경로 변수의 이름은 URL 경로와 일치해야 함
 
 
-- `@RequestBody`: HTTP 요청 본문을 메서드 파라미터에 매핑
-- JSON, XML 등의 데이터를 처리할 때 사용
-- 요청 본문을 객체로 변환하여 전달함
-- 단일 객체만 처리 가능하며, 배열이나 리스트는 지원하지 않음
-- 주로 회원가입에 사용되는 경우가 많음
+- `@RequestBody`
+  - HTTP 요청 본문을 메서드 파라미터에 매핑
+  - JSON, XML 등의 데이터를 처리할 때 사용
+  - 요청 본문을 객체로 변환하여 전달함
+  - 단일 객체만 처리 가능하며, 배열이나 리스트는 지원하지 않음
+  - 주로 회원가입에 사용되는 경우가 많음
 
