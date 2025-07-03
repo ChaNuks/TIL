@@ -6,6 +6,13 @@
 ```bash
 brew install --cask docker
 ```
+OR
+```bash
+1. Docker Desktop for Mac (Apple Chip) 다운로드
+2. .dmg 실행 → Docker.app을 Applications 폴더에 드래그
+3. /Applications/Docker.app 실행
+4. Docker 실행 후 터미널에서 docker --version 으로 확인
+```
 
 ### 2. Windows
 1. [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop) 다운로드
