@@ -2,7 +2,7 @@
 
 ## Docker 설치
 
-### 1. macOS
+### macOS
 ```bash
 brew install --cask docker
 ```
@@ -14,7 +14,21 @@ OR
 4. Docker 실행 후 터미널에서 docker --version 으로 확인
 ```
 
-### 2. Windows
+### Docker Desktop CLI 확인
+```bash
+docker --version
+docker-compose --version
+docker exec -it local-market-postgres-dbms psql -U myuser -d mydb (PostgreSQL 접속)
+```
+
+### 실행
+```bash
+cd ~/Desktop/project/local-market/docker (프로젝트 경로로 이동)
+docker compose up -d (백그라운드 실행)
+```
+
+---
+### Windows
 1. [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop) 다운로드
 2. 설치 후 Docker Desktop 실행
 3. Docker가 정상적으로 실행되는지 확인
