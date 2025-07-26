@@ -1,10 +1,12 @@
 # Service Test
 
 ## 1. 서비스 테스트란?
+
 - 소프트웨어의 특정 기능이나 모듈이 예상대로 작동하는지 확인하기 위해 작성된 테스트
 - 주로 비즈니스 로직, 데이터 처리, 외부 API 호출 등을 검증
 
 ## 2. 예제 코드
+
 - 회원가입 테스트
 
 ```java
@@ -23,6 +25,7 @@ public class MemberDummy {
     }
 }
 ```
+
 ```java
 @ExtendWith(MockitoExtension.class)
 class MemberServiceTest {
@@ -52,6 +55,7 @@ class MemberServiceTest {
 ```
 
 ## 3. 테스트 방법
+
 - `Mockito`: Mock 객체를 생성하여 의존성을 주입하고, 메서드 호출을 검증
 - `@Mock`: Mock 객체를 생성
 - `@InjectMocks`: Mock 객체를 주입받는 클래스의 인스턴스를
